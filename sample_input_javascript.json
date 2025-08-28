@@ -1,0 +1,8 @@
+{
+  "code_snippet": "function calculateTotal(items) {\n    var total = 0;\n    for (var i = 0; i < items.length; i++) {\n        total += items[i].price;\n    }\n    return total;\n}",
+  "review_comments": [
+    "Use const instead of var",
+    "This could be done with reduce()",
+    "No error handling for missing price property"
+  ]
+}

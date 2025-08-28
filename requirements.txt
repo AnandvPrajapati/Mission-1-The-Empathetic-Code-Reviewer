@@ -1,0 +1,24 @@
+# Empathetic Code Reviewer - Requirements
+# Mission 1: The Empathetic Code Reviewer Solution
+
+# Core AI and API dependencies
+openai>=1.0.0
+
+# JSON processing (built-in to Python, listed for completeness)
+# json - built-in
+
+# Type hints support
+typing-extensions>=4.0.0
+
+# Standard library extensions for better functionality  
+python-dateutil>=2.8.0
+
+# Optional: Enhanced code analysis
+# ast - built-in for code parsing
+# re - built-in for pattern matching
+
+# Development and testing (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.910
