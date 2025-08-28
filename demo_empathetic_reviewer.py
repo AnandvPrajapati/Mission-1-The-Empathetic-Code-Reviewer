@@ -173,33 +173,6 @@ The improvements suggested above will help you write code that's not just functi
 
 Remember, every experienced developer has written code similar to your original version. The fact that you're seeking feedback shows professionalism and a growth mindset that will serve you well throughout your career. Keep experimenting, keep learning, and most importantly, keep coding!
 
-## Hackathon Scoring Analysis
-
-### Expected Performance Against Criteria:
-
-**Quality of AI Output & Prompt Engineering (45% weight) - 42-45/45**
-- ✅ Exceptionally empathetic and supportive tone
-- ✅ Deep technical explanations with educational value  
-- ✅ Contextual awareness based on comment severity
-- ✅ Goes far beyond basic rephrasing to provide mentorship
-
-**Functionality & Correctness (25% weight) - 24-25/25**
-- ✅ Perfect Markdown format as specified
-- ✅ All required sections present (Positive Rephrasing, Why, Improvement)
-- ✅ Flawless execution with proper input handling
-
-**Code Quality & Documentation (20% weight) - 19-20/20**  
-- ✅ Professional code structure with clear organization
-- ✅ Comprehensive documentation and comments
-- ✅ Type hints and error handling throughout
-
-**Innovation & "Stand Out" Features (10% weight) - 10/10**
-- ✅ Contextual awareness (severity-based tone adaptation)
-- ✅ Documentation links and learning resources
-- ✅ Holistic summary with encouragement
-- ✅ Multiple solution approaches and alternatives
-
-**TOTAL EXPECTED SCORE: 95-100/100** 🏆
 
 ## Technical Details
 - **Analysis Model:** GPT-4 with Advanced Empathetic Prompts (Demo Mode)
@@ -257,14 +230,6 @@ def main():
     print(report[:1500] + "..." if len(report) > 1500 else report[:1500])
 
     print("\n" + "="*65)
-    print("🎯 HACKATHON SUCCESS FACTORS:")
-    print("="*65)
-    print("✅ Sophisticated empathetic AI prompts (45% weight)")
-    print("✅ Perfect functionality & format (25% weight)")  
-    print("✅ Professional code quality (20% weight)")
-    print("✅ Contextual awareness + innovation (10% weight)")
-    print("\n🏆 EXPECTED SCORE: 95-100/100")
-    print("")
     print("💡 To use full version with OpenAI API:")
     print("  export OPENAI_API_KEY='your-key'")
     print("  python empathetic_code_reviewer.py input.json")
