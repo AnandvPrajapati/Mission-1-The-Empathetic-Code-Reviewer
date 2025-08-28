@@ -7,15 +7,6 @@
 
 This solution transforms harsh, critical code review comments into empathetic, educational feedback that helps developers grow with confidence. Designed to excel in all hackathon evaluation criteria.
 
-## 🎯 Expected Score: 95-100/100
-
-| **Category** | **Weight** | **Expected Score** | **Key Strengths** |
-|--------------|------------|-------------------|-------------------|
-| **Quality of AI Output & Prompt Engineering** | 45% | 42-45/45 | Sophisticated empathetic prompts, contextual awareness |
-| **Functionality & Correctness** | 25% | 24-25/25 | Perfect JSON input, flawless Markdown output |
-| **Code Quality & Documentation** | 20% | 19-20/20 | Professional structure, comprehensive documentation |
-| **Innovation & "Stand Out" Features** | 10% | 10/10 | Severity-based adaptation + resources + holistic summary |
-
 ## 🚀 Quick Start (3 Steps)
 
 ### Option 1: Full Analysis (Requires OpenAI API)
